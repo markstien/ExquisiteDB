@@ -54,6 +54,6 @@ https://marksteinsong.github.io/ExquisiteDB/
 ### properties:
 #### Object.addOne(data,callback)
 
-- `data`: <object>
-- `callback`:<function>
+- `data`: ```<object>```
+- `callback`:```<function>```
  
