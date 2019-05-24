@@ -56,4 +56,16 @@ https://marksteinsong.github.io/ExquisiteDB/
 
 - `data`: ```<object>```
 - `callback`:```<function>```
- 
+#### Object.getAll(callback)
+- `callback`:```<function>```
+#### Object.getOneByIndex(key,value,callback)
+
+- `key`: ```<string>```
+- `value`:```<string>```
+- `callback`:```<function>```
+
+For example:
+```exampleObject.getOneByIndex("id","123",function(result){console.log(result)})```
+
+
+未完待续...
