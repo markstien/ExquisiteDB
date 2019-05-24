@@ -1,3 +1,4 @@
+![avatar](/images/Alogo.png)
 # ExquisiteDB
 ========
 ### 对indexDB的简易封装
