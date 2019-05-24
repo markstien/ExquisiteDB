@@ -2,9 +2,10 @@
 ========
 ### 对indexDB的简易封装
 #### Why?
-#####The original indexDB API  is too hard to use.
-#####原生indexDB API太难用了。
+####The original indexDB API  is too hard to use.
+####原生indexDB API太难用了。
 eg:
+https://marksteinsong.github.io/ExquisiteDB/
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -50,3 +51,9 @@ eg:
 </body>
 </html>
 ```
+### properties:
+#### Object.addOne(data,callback)
+
+- `data`: <object>
+- `callback`:<function>
+ 
