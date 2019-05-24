@@ -1,4 +1,4 @@
-![avatar](/images/Alogo.png)
+![avatar](https://github.com/Marksteinsong/ExquisiteDB/blob/master/images/Alogo.png)
 # ExquisiteDB
 ========
 ### 对indexDB的简易封装
