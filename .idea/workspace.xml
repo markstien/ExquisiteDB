@@ -32,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="82" selection-start-column="82" selection-end-column="82" />
+                <caret column="57" selection-start-column="57" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558705091262</updated>
-      <workItem from="1558705092496" duration="3668000" />
+      <workItem from="1558705092496" duration="3989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3668000" />
+    <option name="totallyTimeSpent" value="3989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -207,7 +207,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="82" selection-start-column="82" selection-end-column="82" />
+            <caret column="57" selection-start-column="57" selection-end-column="57" />
           </first_editor>
           <second_editor />
         </state>
