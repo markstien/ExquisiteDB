@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A</title>
+</head>
+<body>
+<script>
+    //todo   oldData 与  dataChanged  对比更改 有且不同的、没有的
+    const o={a:10,b:2,f:231};
+    const c={a:1111,b:3,c:3,d:"22"};
+    const generate=function (chang,old) {
+            const ok=Object.keys(old);
+            const ck=Object.keys(chang);
+            ck.map(function (key) {
+                //有且不同的、没有的->添加到old
+                !old.hasOwnProperty(key)
+                    ?old[key]=chang[key]
+                    :(
+                        old[key]===chang[key]
+                            ?""
+                            :old[key]=chang[key]
+                    );
+            });
+            return old;
+    };
+    const a=generate(c,o);
+    console.log("A:",a);
+</script>
+</body>
+</html>
