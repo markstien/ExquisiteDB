@@ -25,10 +25,11 @@
         ]
     };
     let example=new ExquisiteDB("dataExquisite",1,dataConstruct);
-    example.addOne({id:"123",name:"Mark",age:"21"},function (result) {
-        console.log(result);
-    });
-    example.getAll(function (datas) {
+    example.add({id:"123",name:"Mark",age:"21"}).then(console.log);
+
+    example.getAll().then(result=>{
+        const datas=result.data;
+        console.log(datas);
         let tbody=document.getElementById("tbody");
         datas.forEach(function (data) {
             tbody.innerHTML+=`<tr>
@@ -37,7 +38,7 @@
                                     <td>${data.age}</td>
                                </tr>`;
         });
-    });
+    })
 </script>
 </body>
 </html>
