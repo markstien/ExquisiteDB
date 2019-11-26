@@ -1,6 +1,7 @@
 ![avatar](images/Alogo.png)
-# ExquisiteDB
-========
+#  ExquisiteDB
+
+
 ### 对indexDB的简易封装
 #### Why?
 #### The original indexDB API  is too hard to use.
